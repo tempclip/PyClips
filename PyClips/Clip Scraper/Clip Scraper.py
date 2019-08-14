@@ -10,7 +10,6 @@ channel_info = client.clips.get_top(channel='koil', period='week', limit=20)
 # clips are output as 'https://clips.twitch.tv/KathishSweetWhalePrimeMe?tt_medium=clips_api&tt_content=url'
 # download link needs to split on '?'. Everything after '?' isn't needed
 # we split at '?'[0] and write to text file
-
 clip_urls = []
 ddmmyyyy = time.strftime("%d-%m-%y") # amazing variable name (example: dd-mm-yy)
 for item in channel_info:

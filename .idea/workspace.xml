@@ -3,9 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="382a2270-beda-4808-b3bf-c85fd382db3a" name="Default" comment="Initial Commit 2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PyClips/Clip Downloader/twitch batcher loader.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/PyClips/Clip Scraper/Clip Scraper.py" beforeDir="false" afterPath="$PROJECT_DIR$/PyClips/Clip Scraper/Clip Scraper.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PyClips/Clip Scraper/clips.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PyClips/Clip Scraper/Downloaded Clips 14-08-19.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/doc/README.md" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/README.txt" beforeDir="false" />
     </list>
@@ -18,14 +18,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Clip Scraper.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Clip Scraper.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/PyClips/Clip Scraper/Clip Scraper.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="19" column="26" lean-forward="true" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
+            <state relative-caret-position="66">
+              <caret line="3" column="63" selection-start-line="3" selection-start-column="33" selection-end-line="3" selection-end-column="63" />
               <folding>
                 <element signature="e#0#31#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="batchloader.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/PyClips/Clip Downloader/batchloader.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="176">
+              <caret line="8" column="42" lean-forward="true" selection-start-line="8" selection-start-column="42" selection-end-line="8" selection-end-column="42" />
             </state>
           </provider>
         </entry>
@@ -78,6 +87,7 @@
         <option value="$PROJECT_DIR$/.twitch.cfg" />
         <option value="$PROJECT_DIR$/Clip Scraper.py" />
         <option value="$PROJECT_DIR$/PyClips/Clip Scraper/Clip Scraper.py" />
+        <option value="$PROJECT_DIR$/PyClips/Clip Downloader/batchloader.py" />
       </list>
     </option>
   </component>
@@ -109,7 +119,7 @@
               <item name="TwitchDownloader" type="b2602c69:ProjectViewProjectNode" />
               <item name="TwitchDownloader" type="462c0819:PsiDirectoryNode" />
               <item name="PyClips" type="462c0819:PsiDirectoryNode" />
-              <item name="Clip Scraper" type="462c0819:PsiDirectoryNode" />
+              <item name="Clip Downloader" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -134,7 +144,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Clip Scraper (1)">
+  <component name="RunManager" selected="Python.batchloader">
     <configuration name="Clip Scraper (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="TwitchDownloader" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -171,14 +181,33 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
+    <configuration name="batchloader" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="TwitchDownloader" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PyClips/Clip Downloader" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PyClips/Clip Downloader/batchloader.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <list>
       <item itemvalue="Python.Clip Scraper" />
       <item itemvalue="Python.Clip Scraper (1)" />
+      <item itemvalue="Python.batchloader" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.batchloader" />
         <item itemvalue="Python.Clip Scraper (1)" />
-        <item itemvalue="Python.Clip Scraper" />
         <item itemvalue="Python.Clip Scraper" />
         <item itemvalue="Python.Clip Scraper" />
         <item itemvalue="Python.Clip Scraper" />
@@ -231,7 +260,21 @@
       <option name="project" value="LOCAL" />
       <updated>1565788580810</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Initial Commit">
+      <created>1565789748056</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1565789748056</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Initial Commit">
+      <created>1565789814724</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1565789814724</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -326,11 +369,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/PyClips/Clip Scraper/Clip Scraper.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="19" column="26" lean-forward="true" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
+        <state relative-caret-position="66">
+          <caret line="3" column="63" selection-start-line="3" selection-start-column="33" selection-end-line="3" selection-end-column="63" />
           <folding>
             <element signature="e#0#31#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PyClips/Clip Downloader/batchloader.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="42" lean-forward="true" selection-start-line="8" selection-start-column="42" selection-end-line="8" selection-end-column="42" />
         </state>
       </provider>
     </entry>
